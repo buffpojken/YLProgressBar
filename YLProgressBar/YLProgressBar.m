@@ -438,7 +438,7 @@ const CGFloat YLProgressBarDefaultProgress = 0.3f;
     if (_type == YLProgressBarTypeRounded)
     {
       // Draw the white shadow
-      [[UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.2] set];
+//      [[UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.2] set];
 
       UIBezierPath *shadow = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0.5f, 0, trackWidth, trackHeight)
                                                         cornerRadius:_internalCornerRadius];
